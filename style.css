@@ -520,7 +520,6 @@ footer .col ul li a:hover {
 }
 
 .copyright {
-  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
@@ -532,6 +531,16 @@ footer .col ul li a:hover {
   width: 100%;
   height: 50px;
   box-sizing: border-box; /* Added */
+  text-align: center;
+  
+  
+}
+
+.copyright p{
+  
+  display: inline;
+ 
+  
 }
 
 footer a{
